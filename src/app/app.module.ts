@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { MarvellousCompComponent } from './marvellous-comp/marvellous-comp.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MarvellousCompComponent
   ],
   imports: [
     BrowserModule,
